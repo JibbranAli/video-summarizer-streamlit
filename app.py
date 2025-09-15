@@ -48,7 +48,7 @@ if video_file:
     # Transcribe Audio using Whisper
     # ----------------------------
     st.info("⏳ Transcribing audio using Whisper...")
-    model = whisper.load_model("base")  # Choose 'tiny', 'base', 'small', 'medium', 'large'
+    model = whisper.load_model("base")  # Options: tiny, base, small, medium, large
     result = model.transcribe(audio_path)
     transcript = result["text"]
     st.subheader("📝 Full Transcription")
@@ -84,7 +84,7 @@ if video_file:
         count += 1
     cap.release()
 
-    # Display frames
+    # Display frames in 4 columns
     cols = st.columns(4)
     for i, frame in enumerate(frames):
         img = Image.fromarray(frame)

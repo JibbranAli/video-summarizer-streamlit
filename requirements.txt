@@ -1,5 +1,5 @@
 streamlit==1.30.0
-whisper==20230314
+openai-whisper
 transformers==4.34.0
 torch>=2.0.0
 ffmpeg-python==0.2.0

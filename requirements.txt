@@ -1,7 +1,10 @@
 streamlit==1.30.0
-openai-whisper
+torch==2.8.0
 transformers==4.34.0
-torch>=2.0.0
+openai-whisper==20250625
 ffmpeg-python==0.2.0
+numpy==1.26.4
+pandas==2.3.2
 opencv-python-headless==4.8.1.78
-Pillow==9.5.0
+tqdm==4.67.1
+rich==13.9.4

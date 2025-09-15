@@ -9,3 +9,4 @@ opencv-python-headless==4.8.1.78
 tqdm==4.67.1
 rich==13.9.4
 moviepy==1.0.3
+soundfile
